@@ -11,13 +11,15 @@ cmd에서 하는 방법>
   명령어: git push -u origin master (저장소명) (브랜치명)
 
 기타 명령어><br/>
-- pull 해서 가져오기: git pull origin main 
+- pull 해서 가져오기: git pull origin main
 
 ---
-#목차
+#개념정리 
 ---
 - java개념정리(노션) : <https://www.notion.so/rambus06/JAVA-301d2f8912074eeeabea96abbd777f52?pvs=4>
 - java개념정리(네이버블로그) : <https://blog.naver.com/PostList.naver?blogId=rambus06&categoryNo=104&from=postList>
+---
+#목차
 ---
 <br/><2학년 수업과정>
 <br/>[001_클래스 상속](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_01Class_inheritance) - 클래스끼리의 상속
