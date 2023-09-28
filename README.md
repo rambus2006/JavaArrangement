@@ -13,12 +13,12 @@ cmd에서 하는 방법>
 기타 명령어><br/>
 - pull 해서 가져오기: git pull origin main
 
----
+
 #개념정리 
 ---
 - java개념정리(노션) : <https://www.notion.so/rambus06/JAVA-301d2f8912074eeeabea96abbd777f52?pvs=4>
 - java개념정리(네이버블로그) : <https://blog.naver.com/PostList.naver?blogId=rambus06&categoryNo=104&from=postList>
----
+
 #목차
 ---
 <br/><2학년 수업과정>
