@@ -16,8 +16,8 @@ cmd에서 하는 방법>
 ---
 #목차
 ---
-java개념정리(노션) : <https://www.notion.so/rambus06/JAVA-301d2f8912074eeeabea96abbd777f52?pvs=4>
-<2학년 수업과정>
+- java개념정리(노션) : <https://www.notion.so/rambus06/JAVA-301d2f8912074eeeabea96abbd777f52?pvs=4> 
+<br/><2학년 수업과정>
 <br/>[001_클래스 상속](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_01Class_inheritance) - 클래스끼리의 상속
 <br/>[002_super키워드](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_02Super) - 부모 클래스로부터 상속받은 필드나 메소드를 자식 클래스에서 참조하는 데 사용하는 참조 변수
 <br/>[003_Upcasting](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_03Upcasting) - 업캐스팅,자식 클래스의 객체 -> 부모 클래스 타입으로 형변환 
