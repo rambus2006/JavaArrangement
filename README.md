@@ -20,17 +20,16 @@ pull 해서 가져오기: git pull origin main
 ---
 <2학년 수업과정>
 <br/>[001_클래스 상속](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_01Class_inheritance) - 클래스끼리의 상속
-<br/>[002_super키워드](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_02Super)
- - 부모 클래스로부터 상속받은 필드나 메소드를 자식 클래스에서 참조하는 데 사용하는 참조 변수<br/>
-003_Upcasting - 업캐스팅,자식 클래스의 객체 -> 부모 클래스 타입으로 형변환 <br/>
-004_Downcasting - 다운캐스팅,부모 클래스의 객체 -> 자식 클래스 타입으로 형변환 (업캐스팅과 반대)<br/>
-005_InstanceOf - 객체가 어떤 클래스인지, 어떤 클래스를 상속받았는지 확인하는데 사용하는 연산자<br/>
-006_MethodOverRiding - 메소드 오버라이딩, 부모 클래스로부터 상속받은 메소드를 자식 클래스에서 재정의하여 사용하는 것<br/>
-007_AbstractMethod - 추상메소드,자식 클래스에서 반드시 오버라이딩해야만 사용할 수 있는 메소드<br/>
-008_Interface - 인터페이스,다른 클래스를 작성할 때 기본이 되는 틀을 제공하면서, 다른 클래스 사이의 중간 매개 역할까지 담당하는 일종의 추상 클래스<br/>
-009_Package - 패키지,클래스와 인터페이스의 집합<br/>
-010_ObjectClass - Object클래스,java의 최대 조상클래스<br/>
-011_WrapperClass - Wrapper클래스, 기본자료타입(int,String등)을 객체로 다룰 때 사용하는 클래스 <br/>
+<br/>[002_super키워드](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_02Super) - 부모 클래스로부터 상속받은 필드나 메소드를 자식 클래스에서 참조하는 데 사용하는 참조 변수
+<br/>[003_Upcasting](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_03Upcasting) - 업캐스팅,자식 클래스의 객체 -> 부모 클래스 타입으로 형변환 
+<br/>[004_Downcasting](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_04Downcasting) - 다운캐스팅,부모 클래스의 객체 -> 자식 클래스 타입으로 형변환 (업캐스팅과 반대)
+<br/>[005_InstanceOf](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_05InstanceOf) - 객체가 어떤 클래스인지, 어떤 클래스를 상속받았는지 확인하는데 사용하는 연산자
+<br/>[006_MethodOverRiding](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_06MethodOverRiding) - 메소드 오버라이딩, 부모 클래스로부터 상속받은 메소드를 자식 클래스에서 재정의하여 사용하는 것
+<br/>[007_AbstractMethod](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_07AbstractMethod) - 추상메소드,자식 클래스에서 반드시 오버라이딩해야만 사용할 수 있는 메소드
+<br/>[008_Interface](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_08Interface) - 인터페이스,다른 클래스를 작성할 때 기본이 되는 틀을 제공하면서, 다른 클래스 사이의 중간 매개 역할까지 담당하는 일종의 추상 클래스
+<br/>[009_Package](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_09Package) - 패키지,클래스와 인터페이스의 집합
+<br/>[010_ObjectClass](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_10ObjectClass) - Object클래스,java의 최대 조상클래스
+011_WrapperClass - Wrapper클래스, 기본자료타입(int,String등)을 객체로 다룰 때 사용하는 클래스 
 012_Boxing - 박싱,기본 자료형의 데이터를 래퍼(wrapper) 클래스의 객체로 만드는 과정<br/>
 013_StringClass - String클래스,java.lang.String 클래스,(메소드: charAt(),compareTo(),concat(),indexOf(),trim(),toLowerCase(),toUpperCase()등)<br/>
 014_StringBuffer - 상시 바뀌는 문자열을 처리하기 위한 클래스 <br/>
