@@ -26,25 +26,25 @@ pull 해서 가져오기: git pull origin main
 <br/>[005_InstanceOf](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_05InstanceOf) - 객체가 어떤 클래스인지, 어떤 클래스를 상속받았는지 확인하는데 사용하는 연산자
 <br/>[006_MethodOverRiding](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_06MethodOverRiding) - 메소드 오버라이딩, 부모 클래스로부터 상속받은 메소드를 자식 클래스에서 재정의하여 사용하는 것
 <br/>[007_AbstractMethod](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_07AbstractMethod) - 추상메소드,자식 클래스에서 반드시 오버라이딩해야만 사용할 수 있는 메소드
-<br/>[008_Interface](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_08Interface) - 인터페이스,다른 클래스를 작성할 때 기본이 되는 틀을 제공하면서, 다른 클래스 사이의 중간 매개 역할까지 담당하는 일종의 추상 클래스
+<br/>[008_Interface](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_08Interface) - 인터페이스,다른 클래스를 작성할 때 기본이 되는 틀을 제공, 다른 클래스 사이의 중간 매개 역할까지 담당하는 추상 클래스
 <br/>[009_Package](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_09Package) - 패키지,클래스와 인터페이스의 집합
 <br/>[010_ObjectClass](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_10ObjectClass) - Object클래스,java의 최대 조상클래스
-011_WrapperClass - Wrapper클래스, 기본자료타입(int,String등)을 객체로 다룰 때 사용하는 클래스 
-012_Boxing - 박싱,기본 자료형의 데이터를 래퍼(wrapper) 클래스의 객체로 만드는 과정<br/>
-013_StringClass - String클래스,java.lang.String 클래스,(메소드: charAt(),compareTo(),concat(),indexOf(),trim(),toLowerCase(),toUpperCase()등)<br/>
-014_StringBuffer - 상시 바뀌는 문자열을 처리하기 위한 클래스 <br/>
-015_HashCode - 해시코드,객체를 식별하는 하나의 정수값<br/>
-016_Generic - 제네릭,클래스 내부에서 사용할 데이터 타입을 외부에서 지정하는 기법(수업시간코드)<br/>
-017_Collection - 컬렉션,목록성 데이터를 처리하는 자료구조<br/>
-018_ArrayList - 여러 데이터를 순서대로 관리하고 싶을 때 사용<br/>
-019_PerforomTest - 수행평가 <br/>
-020_main(수업시간에 한 것)<br/>
-021_ComparableInterface - 객체 정렬에 사용<br/>
-022_Generic2 - 클래스 내부에서 사용할 데이터 타입을 외부에서 지정하는 기법(명품자바 + 혼공자바)<br/>
-023_JavaUtilPackage - java.util 패키지 <br/>
+<br/>[011_WrapperClass](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_11WrapperClass) - Wrapper클래스, 기본자료타입(int,String등)을 객체로 다룰 때 사용하는 클래스 
+<br/>[012_Boxing](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_12Boxing) - 박싱,기본 자료형의 데이터를 래퍼(wrapper) 클래스의 객체로 만드는 과정<br/>
+<br/>[013_StringClass](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_13StringClass) - String클래스,java.lang.String 클래스
+<br/>[014_StringBuffer](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_14StringBuffer) - 상시 바뀌는 문자열을 처리하기 위한 클래스 
+<br/>[015_HashCode](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_15HashCode) - 해시코드,객체를 식별하는 하나의 정수값
+<br/>[016_Generic](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_16Generic) - 제네릭,클래스 내부에서 사용할 데이터 타입을 외부에서 지정하는 기법(수업시간코드)
+<br/>[017_Collection](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_17Collection) - 컬렉션,목록성 데이터를 처리하는 자료구조
+<br/>[018_ArrayList](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_18ArrayList) - 여러 데이터를 순서대로 관리하고 싶을 때 사용
+<br/>[019_PerforomTest](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_19PerformTest) - 수행평가
+<br/>[020_main(수업시간에 한 것)](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_20Main_방민서_2305)
+021_ComparableInterface - 객체 정렬에 사용
+022_Generic2 - 클래스 내부에서 사용할 데이터 타입을 외부에서 지정하는 기법(명품자바 + 혼공자바)
+023_JavaUtilPackage - java.util 패키지 
 024_ArrayListTest<br/>
-025_Stream - 스트림,단일 방향으로 연속적으로 흘러가는 것<br/>
-026_in&output - 입출력스트림, 파일읽는 스트림 <br/>
-027_ThreadStudy - 스레드<br/>
-028_FileClass - 파일클래스,파일의 경로명을 다루는 클래스 <br/>
+025_Stream - 스트림,단일 방향으로 연속적으로 흘러가는 것
+026_in&output - 입출력스트림, 파일읽는 스트림 
+027_ThreadStudy - 스레드
+028_FileClass - 파일클래스,파일의 경로명을 다루는 클래스 
 
