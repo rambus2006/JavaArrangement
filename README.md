@@ -10,12 +10,13 @@ cmd에서 하는 방법>
 5. push해서 github에 올리기 
   명령어: git push -u origin master (저장소명) (브랜치명)
 
-기타 명령어>
-pull 해서 가져오기: git pull origin main 
+기타 명령어><br/>
+- pull 해서 가져오기: git pull origin main 
 
 ---
 #목차
 ---
+java개념정리(노션) : <https://www.notion.so/rambus06/JAVA-301d2f8912074eeeabea96abbd777f52?pvs=4>
 <2학년 수업과정>
 <br/>[001_클래스 상속](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_01Class_inheritance) - 클래스끼리의 상속
 <br/>[002_super키워드](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_02Super) - 부모 클래스로부터 상속받은 필드나 메소드를 자식 클래스에서 참조하는 데 사용하는 참조 변수
