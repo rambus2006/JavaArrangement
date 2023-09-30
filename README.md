@@ -50,4 +50,4 @@ cmd에서 하는 방법>
 <br/>[026_in&output](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_26입출력) - 입출력스트림, 파일읽는 스트림 
 <br/>[027_ThreadStudy](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_27_thread_study) - 스레드
 <br/>[028_FileClass](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_28파일클래스) - 파일클래스,파일의 경로명을 다루는 클래스 
-<br/>[029_Thread](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_29스레드) - 스레드 
+<br/>[029_Thread]([https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_29스레드](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_29_%EC%8A%A4%EB%A0%88%EB%93%9C)https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_29_%EC%8A%A4%EB%A0%88%EB%93%9C) - 스레드 
