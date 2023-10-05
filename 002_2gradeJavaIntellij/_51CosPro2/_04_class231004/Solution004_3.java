@@ -40,11 +40,11 @@ class Solution004_3 {
     }
 
     int[] Solution004_3(int n, String bundle) {
-        String aCards = func_a(bundle, @@@, @@@);
-        String bCards = func_a(bundle, @@@, @@@);
-        int aScore = func_c(@@@);
-        int bScore = func_c(@@@);
-        int[] answer = func_b(@@@, @@@);
+        String aCards = func_a(bundle, 0, n);
+        String bCards = func_a(bundle, 1, n);
+        int aScore = func_c(aCards);
+        int bScore = func_c(bCards);
+        int[] answer = func_b(aScore, bScore);
         return answer;
     }
 
