@@ -1,2 +1,4 @@
-package _00CosPro.기출05;public class Solution001 {
+package _00CosPro.기출05;
+
+public class Solution001 {
 }
