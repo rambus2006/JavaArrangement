@@ -3,7 +3,7 @@ package main;
 import javax.swing.*;
 
 //https://www.youtube.com/watch?v=N1ktYfszqnM
-// 27m 16s
+// 27m 34s
 public class main {
     public static void main(String[] args) {
         JFrame window = new JFrame("Simple Tetris");
@@ -18,5 +18,7 @@ public class main {
         //화면에 안나오는 속성
         window.setLocationRelativeTo(null);
         window.setVisible(true);
+
+        gp.launchGame();
     }
 }

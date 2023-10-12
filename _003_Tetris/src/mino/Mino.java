@@ -24,7 +24,13 @@ public class Mino {
     public void updateXY(int direction){}
     public void update(){
         autoDropCounter++;
-        if(autoDropCounter == PlayManager.dropInterval);
+        if(autoDropCounter == PlayManager.dropInterval){
+            b[0].y +=Block.SIZE;
+            b[1].y+=Block.SIZE;
+            b[2].y+=Block.SIZE;
+            b[3].y+=Block.SIZE;
+            autoDropCounter=0;
+        }
     }
     public void draw(Graphics2D g2){
         int margin =2;
