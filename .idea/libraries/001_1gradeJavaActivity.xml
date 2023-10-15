@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="001_1gradeJavaActivity">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/001_1gradeJavaActivity/JavaSchoolProject_-main.zip!/" />
+      <root url="jar://$PROJECT_DIR$/001_1gradeJavaActivity/Programming-Programming.zip!/" />
+      <root url="jar://$PROJECT_DIR$/001_1gradeJavaActivity/Java-JAVAMAIN.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
