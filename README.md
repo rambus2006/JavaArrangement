@@ -51,3 +51,17 @@ cmd에서 하는 방법>
 <br/>[027_ThreadStudy](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_27_thread_study) - 스레드
 <br/>[028_FileClass](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_28파일클래스) - 파일클래스,파일의 경로명을 다루는 클래스 
 <br/>[029_Thread](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_29_%EC%8A%A4%EB%A0%88%EB%93%9C)- 스레드 
+
+#테트리스[003_Tetris](https://github.com/rambus2006/JavaArrangement/tree/main/_003_Tetris)
+---
+<br/><main>
+<br/> [main.java](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/main/main.java):main
+<br/> [KeyHandler.java](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/main/KeyHandler.java): 키보드 조정
+<br/> [PlayManager.java](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/main/PlayManager.java)
+<br/> [GamePanel.java](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/main/GamePanel.java): 게임 내용 표시 
+<br/>
+<br/><mino>
+<br/> [Block.java](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/mino/Block.java):블록 표시 
+<br/> [Mino.java](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/mino/Mino.java): 블록 표시 
+<br/> [Mino_L1](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/mino/Mino_L1.java): 블록표시 
+<br/> [Mino_L2](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/mino/Mino_L2.java) : 개발 예정 
