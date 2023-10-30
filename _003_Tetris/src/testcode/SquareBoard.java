@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Hashtable;
 
+//테트리스 보드 
 public class SquareBoard extends Object {
 
     private final int width;

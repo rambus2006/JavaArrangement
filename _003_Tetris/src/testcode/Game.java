@@ -47,11 +47,14 @@ public class Game extends Object {
 
     private int state;
 
+    //화면 크기 설정
     public Game() {
-        this(10, 20);
+        this(40, 60);
     }
 
+    //화면 크기
     public Game(int width, int height) {
+        new startendPanel();
         board = new SquareBoard(width, height);
         thread = new GameThread();
         handleGetReady();
@@ -61,6 +64,7 @@ public class Game extends Object {
                 handleKeyEvent(e);
             }
         });
+
     }
 
     public void addPropertyChangeListener(PropertyChangeListener l) {
@@ -94,13 +98,13 @@ public class Game extends Object {
     public Component getPreviewBoardComponent() {
         return previewBoard.getComponent();
     }
-
+    //초기화
     public void init() {
         if (state == STATE_GAMEOVER) {
             handleGetReady();
         }
     }
-
+    //핸들러 시작하기
     public void start() {
         handleStart();
     }
@@ -126,6 +130,7 @@ public class Game extends Object {
         level = 1;
         score = 0;
         figure = null;
+        //다음 방향으로 넘기기(랜덤으로)
         nextFigure = randomFigure();
         nextFigure.rotateRandom();
         nextRotation = nextFigure.getRotation();
@@ -141,6 +146,7 @@ public class Game extends Object {
         thread.reset();
     }
 
+    //게임 오버 되었을 때
     private void handleGameOver() {
 
         thread.setPaused(true);
@@ -158,7 +164,7 @@ public class Game extends Object {
         board.setMessage("Game Over");
         PCS.firePropertyChange("state", -1, STATE_GAMEOVER);
     }
-
+    //게임 준비하는 코드
     private void handleGetReady() {
         board.setMessage("Get Ready");
         board.clear();
@@ -166,7 +172,7 @@ public class Game extends Object {
         state = STATE_GETREADY;
         PCS.firePropertyChange("state", -1, STATE_GETREADY);
     }
-
+    //게임 일시 정지하는 코드
     private void handlePause() {
         thread.setPaused(true);
         state = STATE_PAUSED;
@@ -180,12 +186,12 @@ public class Game extends Object {
         thread.setPaused(false);
         PCS.firePropertyChange("state", -1, STATE_PLAYING);
     }
-
+    //핸들러로 레벨 수정하기
     private void handleLevelModification() {
         PCS.firePropertyChange("level", -1, level);
         thread.adjustSpeed();
     }
-
+    //핸들러로 점수 수정하기
     private void handleScoreModification() {
         PCS.firePropertyChange("score", -1, score);
     }
@@ -238,7 +244,7 @@ public class Game extends Object {
             handleFigureStart();
         }
     }
-
+    //핸들러 타이머
     private synchronized void handleTimer() {
         if (figure == null) {
             handleFigureStart();
@@ -248,7 +254,7 @@ public class Game extends Object {
             figure.moveDown();
         }
     }
-
+    //핸들러 일시중지 켜기,끄기
     private synchronized void handlePauseOnOff() {
         if (nextFigure == null) {
             handleStart();
@@ -265,6 +271,7 @@ public class Game extends Object {
             return;
         }
 
+        //테트리스 멈추기
         if (e.getKeyCode() == KeyEvent.VK_P) {
             handlePauseOnOff();
             return;
@@ -273,24 +280,28 @@ public class Game extends Object {
         if (figure == null || moveLock || thread.isPaused()) {
             return;
         }
-
+        //키보드로 조종하는 코드
         switch (e.getKeyCode()) {
-
+            //왼쪽화살표키 -> 왼쪽으로 이동
             case KeyEvent.VK_LEFT:
                 figure.moveLeft();
                 break;
-
+            //오른쪽화살표키 -> 오른쪽으로 이동
             case KeyEvent.VK_RIGHT:
                 figure.moveRight();
                 break;
-
+            //아래쪽 화살표키 -> 아래쪽으로 내리기
             case KeyEvent.VK_DOWN:
                 figure.moveAllWayDown();
                 moveLock = true;
                 break;
-
-            case KeyEvent.VK_UP:
+            //스페이스 -> 아래쪽으로 내리기
             case KeyEvent.VK_SPACE:
+                figure.moveAllWayDown();
+                moveLock = true;
+                break;
+            //위쪽 화살표 -> 방향 바꾸기
+            case KeyEvent.VK_UP:
                 if (e.isControlDown()) {
                     figure.rotateRandom();
                 } else if (e.isShiftDown()) {
@@ -299,14 +310,14 @@ public class Game extends Object {
                     figure.rotateCounterClockwise();
                 }
                 break;
-
+            //S 키보드 키 -> 레벨 올리는 키 (속도 빨라짐)
             case KeyEvent.VK_S:
                 if (level < 9) {
                     level++;
                     handleLevelModification();
                 }
                 break;
-
+            //N 키보드 -> 잘 모르겠다.
             case KeyEvent.VK_N:
                 preview = !preview;
                 if (preview && figure != nextFigure) {
@@ -323,7 +334,7 @@ public class Game extends Object {
         return figures[(int) (Math.random() * figures.length)];
     }
 
-
+    //게임 스레드
     private class GameThread extends Thread {
 
         private boolean paused = true;

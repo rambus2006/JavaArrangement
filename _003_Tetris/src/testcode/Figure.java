@@ -47,10 +47,14 @@ public class Figure extends Object {
         orientation = 0;
 
         // 도형 유형 변수 초기화
+        // 테트리스 블록 설정
         switch (type) {
             case SQUARE_FIGURE:
+                // 0 0
+                // 0 0
                 maxOrientation = 1;
-                color = Configuration.getColor("figure.square", "#ffd8b1");
+                //색깔
+                color = Configuration.getColor("figure.square", "#ffc0cb");
                 shapeX[0] = -1;
                 shapeY[0] = 0;
                 shapeX[1] = 0;
@@ -205,6 +209,7 @@ public class Figure extends Object {
         return !isAttached() || !canMoveTo(xPos, yPos + 1, orientation);
     }
 
+    //왼쪽으로 이동
     public void moveLeft() {
         if (isAttached() && canMoveTo(xPos - 1, yPos, orientation)) {
             paint(null);
@@ -213,7 +218,7 @@ public class Figure extends Object {
             board.update();
         }
     }
-
+    //오른쪽으로 이동
     public void moveRight() {
         if (isAttached() && canMoveTo(xPos + 1, yPos, orientation)) {
             paint(null);
@@ -222,7 +227,7 @@ public class Figure extends Object {
             board.update();
         }
     }
-
+    //아래쪽으로 이동
     public void moveDown() {
         if (isAttached() && canMoveTo(xPos, yPos + 1, orientation)) {
             paint(null);
@@ -231,7 +236,7 @@ public class Figure extends Object {
             board.update();
         }
     }
-
+    //아래로 확 이동
     public void moveAllWayDown() {
         int y = yPos;
 

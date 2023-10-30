@@ -31,9 +31,9 @@ public class Tetris {
      *
      * @param args 명령 줄 인수
      */
-    //메인 
+    //메인 루프
     public static void main(String[] args) {
-        System.out.println("starting");
+        System.out.println("start");
         Frame frame = new Frame("Tetris");
         final Game game = new Game();
 
