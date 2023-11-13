@@ -54,14 +54,4 @@ cmd에서 하는 방법>
 
 #테트리스[003_Tetris](https://github.com/rambus2006/JavaArrangement/tree/main/_003_Tetris)
 ---
-<br/><main>
-<br/> [main.java](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/main/main.java):main
-<br/> [KeyHandler.java](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/main/KeyHandler.java): 키보드 조정
-<br/> [PlayManager.java](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/main/PlayManager.java)
-<br/> [GamePanel.java](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/main/GamePanel.java): 게임 내용 표시 
-<br/>
-<br/><mino>
-<br/> [Block.java](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/mino/Block.java):블록 표시 
-<br/> [Mino.java](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/mino/Mino.java): 블록 표시 
-<br/> [Mino_L1](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/mino/Mino_L1.java): 블록표시 
-<br/> [Mino_L2](https://github.com/rambus2006/JavaArrangement/blob/main/_003_Tetris/src/mino/Mino_L2.java) : 개발 예정 
+
