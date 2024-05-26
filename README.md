@@ -51,16 +51,24 @@ cmd에서 하는 방법>
 <br/>[028_FileClass](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_28파일클래스) - 파일클래스,파일의 경로명을 다루는 클래스 
 <br/>[029_Thread](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_29_%EC%8A%A4%EB%A0%88%EB%93%9C)- 스레드 
 
-#테트리스[003_Tetris](https://github.com/rambus2006/JavaArrangement/tree/main/_003_Tetris)
----
-<br/>[테트리스](https://github.com/rambus2006/JavaArrangement/tree/main/_003_Tetris)
+
 
 #피자가게키오스크 
 ---
-[피자가게키오스크 프로젝트](https://blog.naver.com/rambus06)
+[피자가게키오스크 프로젝트](https://github.com/rambus2006/JavaArrangement/tree/main/%ED%94%BC%EC%9E%90%EA%B0%80%EA%B2%8C%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC)
 <br/>
 ![image](https://github.com/rambus2006/JavaArrangement/assets/101540710/5ba68eaa-2c55-4cd5-84af-c57adb4a3e41)
 
+#학생관리프로그램
+---
+[학생관리정보프로그램]
+<br/>
+![image](https://github.com/rambus2006/JavaArrangement/assets/101540710/62b8cab9-77b7-4601-ae31-ab2ba43a44f2)
+
+
+#테트리스[003_Tetris](https://github.com/rambus2006/JavaArrangement/tree/main/_003_Tetris)
+---
+<br/>[테트리스](https://github.com/rambus2006/JavaArrangement/tree/main/_003_Tetris)
 
 
 #스프링
