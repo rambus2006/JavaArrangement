@@ -57,11 +57,9 @@ cmd에서 하는 방법>
 
 #피자가게키오스크 
 ---
-[피자가게키오스크 프로젝트]()
-![image](https://github.com/rambus2006/JavaArrangement/assets/101540710/f8e09386-74e5-4350-8c6c-87ed381982c1)
-![image](https://github.com/rambus2006/JavaArrangement/assets/101540710/827d613e-7327-4639-b350-892ab144f770)
-![image](https://github.com/rambus2006/JavaArrangement/assets/101540710/0d431619-255b-4afa-8861-b1e58f3920c3)
-![image](https://github.com/rambus2006/JavaArrangement/assets/101540710/e2d73e69-bb57-4f7e-b6c0-7284dcb70a26)
+[피자가게키오스크 프로젝트](https://blog.naver.com/rambus06)
+![image](https://github.com/rambus2006/JavaArrangement/assets/101540710/65dc91dd-a30f-41d3-82cd-c54df88ca4cb)
+
 
 
 #스프링
