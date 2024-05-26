@@ -61,7 +61,7 @@ cmd에서 하는 방법>
 
 #학생관리프로그램
 ---
-[학생관리정보프로그램]
+[학생관리정보프로그램](https://github.com/rambus2006/JavaArrangement/tree/main/%ED%95%99%EC%83%9D%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8)
 <br/>
 ![image](https://github.com/rambus2006/JavaArrangement/assets/101540710/62b8cab9-77b7-4601-ae31-ab2ba43a44f2)
 
