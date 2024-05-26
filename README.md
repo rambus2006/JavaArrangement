@@ -58,7 +58,7 @@ cmd에서 하는 방법>
 #피자가게키오스크 
 ---
 [피자가게키오스크 프로젝트](https://blog.naver.com/rambus06)
-![image](https://github.com/rambus2006/JavaArrangement/assets/101540710/65dc91dd-a30f-41d3-82cd-c54df88ca4cb)
+![image](https://github.com/rambus2006/JavaArrangement/assets/101540710/5ba68eaa-2c55-4cd5-84af-c57adb4a3e41)
 
 
 
