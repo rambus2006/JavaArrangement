@@ -7,6 +7,24 @@
 ## 📘목차
 ### 1학년
 ---
+- [001_출력물]()
+- [002_상수]()
+- [003_데이터형&변수]()
+- [004_연산자]()
+- [005_if문]()
+- [006_switch문]()
+- [007_입력문]()
+- [008_수행평가1]()
+- [009_과제1]()
+- [010_과제2]()
+- [011_for문]()
+- [012_과제3]()
+- [013_별찍기]()
+- [014_수행평가2]()
+- [015_while문]()
+- [016_Dowhile문]()
+- [017_분기문]()
+- [018_기타문제]()
 ### 2학년
 - [001_클래스 상속](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_01Class_inheritance) - 클래스끼리의 상속
 - [002_super키워드](https://github.com/rambus2006/JavaArrangement/tree/main/002_2gradeJavaIntellij/_02Super) - 부모 클래스로부터 상속받은 필드나 메소드를 자식 클래스에서 참조하는 데 사용하는 참조 변수
